@@ -1,0 +1,14 @@
+body { 
+    background: url(images/redline.png); /* Фоновый рисунок */
+      background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    }
+   div {
+    box-shadow: 7px 7px 5px rgba(35, 131, 51, 0.6); /* Тень */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Радиус скругления */
+    background: #eeece0; /* Цвет фона */
+   }
+    b:hover {
+    background: #173525; /* Цвет фона под ссылкой */ 
+    color: rgb(132, 168, 91); /* Цвет ссылки */
+   }
