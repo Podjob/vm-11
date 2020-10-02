@@ -1,11 +1,11 @@
   
 body{ 
-  background: linear-gradient(90deg, #cab875, #a74620);
+  background: #000 url("https://trikky.ru/wp-content/blogs.dir/1/files/2019/01/04/198210B8-AE61-4B51-B915-8AB317BC7D4A.jpeg") no-repeat fixed left bottom;
 }
 *{
   margin: 0;
   box-sizing: border-box;
-  color: #001121;
+  color: #46458d;
 }
 #death{
   height: 100%;
@@ -113,6 +113,7 @@ input{
   text-align: center;
   padding: 20px;
   width: 230px;
+  background: #000 url("https://ru-static.z-dn.net/files/d75/2677f715dc940581ff7f3883d4816a1c.jpg" ) no-repeat fixed left bottom;
 }
 .character *{
   margin: 5px;
