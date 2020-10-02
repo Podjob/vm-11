@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Моя ламповая RPG</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="centerDIV">
+            <div id="choose">
+                <div class="character">
+                    <label><b>Чародейка</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 85%</label>
+                    <label>Очки: 800</label>
+                    <label>Интеллект: 15</label>
+                    <label>Стресс: 15%</label>
+                    <button id="ChooseFemale">Выбрать этого персонажа</button>
+                </div>
+                <div class="character">
+                    <label><b>Чароедей</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 100%</label>
+                    <label>Очки: 500</label>
+                    <label>Интеллект: 10</label>
+                    <label>Стресс: 10%</label>
+                    <button id="ChooseMale">Выбрать этого персонажа</button>
+                </div>
+                <div class="character">
+                    <label><b>Хагрид</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 600%</label>
+                    <label>Очки: 1800</label>
+                    <label>Интеллект: 3</label>
+                    <label>Стресс: -500%</label>
+                    <button id="ChoosePokemon">Выбрать этого персонажа</button>
+                </div>
+            </div>
+            <div id="SMS">
+                <label id="SMS-TEXT">ASFHOUAWHF</label>
+            </div>
+        </div>
+        <div id="death">
+            <label>ВЫ УМЕРЛИ</label>
+        </div>
+        <div class="container">
+            <div class="first-block">
+                <div class="screen">
+                    <img src="http://dh-art.ru/besceler/gloster1.jpg" id="image">
+                </div>
+                <div class="stats">
+                    <label>Твои характеристики:</label>
+                    <label id="HP">Здоровье студента: 100%</label>
+                    <label id="Money">Очки: 500</label>
+                    <label id="KnowLedge">Знания студента: 10</label>
+                    <label id="Stress">Стресс: 10%</label>
+                    <label id="TotalSteps">Ход: 0</label>
+                    <label>Если здоровье упадет до 0 или стесс привысит 100, ты умрёшь!</label>
+                </div>
+            </div>
+            <div class="infos">
+                <span>Вы находитесь в : <label id="Location">Локация</label></span>
+                <p id="Result">результат ответа</p>
+                <span>Варианты выхода: <label id="Ways">столовая, аудитория и военком(армия)</label></span>
+                <input id="inp" type="text" placeholder="куда хочешь пойти?">
+                <button id="Step">Пойти</button>
+            </div> 
+        </div>
+        
+        <script src="sr.js"></script>
+    </body>
+</html>
